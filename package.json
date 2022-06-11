@@ -11,11 +11,13 @@
   },
   "dependencies": {
     "next": "12.1.6",
+    "next-optimized-images": "^2.6.2",
     "react": "18.1.0",
     "react-dom": "18.1.0"
   },
   "devDependencies": {
     "eslint": "8.17.0",
-    "eslint-config-next": "12.1.6"
+    "eslint-config-next": "12.1.6",
+    "sass": "^1.52.2"
   }
 }
