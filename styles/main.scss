@@ -19,6 +19,10 @@ a {
 header {
   background: url("/sol-tiny.png") no-repeat top right;
   background-size: 200px auto;
+
+  @media only screen and (max-width: 640px) {
+    background-size: 100px auto;
+  }
 }
 
 h1 {
@@ -29,6 +33,10 @@ h1 {
 
 section {
   padding: 20px 40px;
+  @media only screen and (max-width: 640px) {
+    padding: 20px;
+  }
+  
 }
 
 .info {
@@ -82,6 +90,30 @@ section {
     url("/carrinho-2.png") no-repeat bottom right;
   background-size: auto 50px, auto 50px;
   background-color: $pine;
+  color: #fff;
+}
+
+.donate-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  
+  img {
+    border-radius: 50%;
+  }
+
+  li {
+    margin: 0 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 320px;
+    text-align: center;
+    background-color: rgba($color: #000, $alpha: .2);
+  }
 }
 
 .form {

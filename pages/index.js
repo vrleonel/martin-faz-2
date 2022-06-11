@@ -31,7 +31,6 @@ export default function Home() {
           </a>
         </section>
         <section className="donate">
-          <h2>Presentes - Doações</h2>
           <article>
             <p>
               Chegou a hora de comemorar os 2 anos do Martin e contamos com sua presença nesse momento.
@@ -44,19 +43,21 @@ export default function Home() {
               continuar ajudando famílias e pets.
             </p>
             <p>
-              As doações podem ser feitas via pix, comprando uma cesta básica no site ..... ou levando no dia do aniversário uma cesta básica ou ração.
+              As doações podem ser feitas via pix, comprando uma cesta básica no site... ou levando no dia do aniversário uma cesta básica ou ração.
             </p>
             <p>
               Para conhecer mais o trabalho desses parceiros acesse os perfis no Instagram:
             </p>
           </article>
-          <ul>
+          <ul className="donate-list">
             <li>
               <h3>Projeto Corrente do Bem</h3>
+              <Image src="/corrente-do-bem-logo.jpeg" alt="Corrente do Bem" width={150} height={150} />
               <p><a href="https://www.instagram.com/projetocorrente_bem/" rel="noreferrer noopener" target="_blank">@projetocorrente_bem</a></p>
             </li>
             <li>
               <h3>Irmandade Animal</h3>
+              <Image src="/irmandade-logo.jpeg" alt="Irmandade Animal" width={150} height={150} />
               <p><a href="https://www.instagram.com/irmandadeanimal/" rel="noreferrer noopener" target="_blank">@irmandadeanimal</a></p>
             </li>
 
