@@ -9,12 +9,97 @@ body {
   background-color: $westar;
 }
 
+a {
+  text-decoration: underline;
+  &:hover{
+    text-decoration: none;
+  }
+}
+
+header {
+  background: url("/sol-tiny.png") no-repeat top right;
+  background-size: 200px auto;
+}
+
 h1 {
   display: flex;
   justify-content: center;
   margin: 0;
 }
 
+section {
+  padding: 20px 40px;
+}
+
+.info {
+  width: 100%;
+  background-color: $copper;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+
+  .image {
+    z-index: 10;
+  }
+  
+  .card {
+    width: 300px;
+    margin-left: -300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba($color: $twine, $alpha: .4);
+    z-index: 20;
+    border-radius: 20% 0;
+    color: #fff;
+    text-decoration: none;
+    
+    &:hover {
+      background-color: rgba($color: $twine, $alpha: .7);
+    }
+
+    h3, h2 { 
+      margin: 0 0 15px;
+    }
+    
+    @media only screen and (max-width: 640px) {
+      margin: 20px 0px 0;
+      border-radius: 20px;
+      height: 150px;
+    }
+  }
+
+  
+}
+
+.donate {
+  width: 100%;
+  background: 
+    url("/carrinho-1.png") no-repeat bottom left, 
+    url("/carrinho-2.png") no-repeat bottom right;
+  background-size: auto 50px, auto 50px;
+  background-color: $pine;
+}
+
+.form {
+  width: 100%;
+  background: url("/bolha-sabao.png") center top;
+  background-color: $twine;
+}
+
+.form-google {
+  max-width: 700px;
+  width: 100%;
+  height: 1124px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
 // .container {
 //   background-color: #000;
 // }
