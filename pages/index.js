@@ -8,7 +8,11 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Martin Faz 2</title>
+        <meta name="title" content="Martin Faz 2" />
         <meta name="description" content="Segunda volta ao sol do Martin" />
+        <meta property="og:image" content="/sol-tiny.png" />
+        <meta property="og:title" content="Martin Faz 2" />
+        <meta property="og:description" content="Segunda volta ao sol do Martin" />
         <link rel="icon" href="/sol-tiny.png" />
       </Head>
       
