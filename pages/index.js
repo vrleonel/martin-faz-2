@@ -48,7 +48,7 @@ export default function Home() {
               continuar ajudando famílias e pets.
             </p>
             <p>
-              As doações podem ser feitas via pix, comprando uma cesta básica no site... ou levando no dia do aniversário uma cesta básica ou pacote ração.
+              As doações podem ser feitas via pix, comprando uma cesta básica no site, ou levando no dia do aniversário uma cesta básica ou pacote ração.
             </p>
             <p>
               Para conhecer mais o trabalho desses parceiros acesse os perfis no Instagram:
