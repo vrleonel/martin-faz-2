@@ -55,23 +55,28 @@ export default function Home() {
             </p>
           </article>
           <ul className="donate-list">
-            <li>
+            <li className="card">
               <h3>Projeto Corrente do Bem</h3>
               <a href="https://www.instagram.com/projetocorrente_bem/" rel="noreferrer noopener" target="_blank">
                 <Image src="/corrente-do-bem-logo.jpeg" alt="Corrente do Bem" width={150} height={150} />
                 <p>@projetocorrente_bem</p>
               </a>
-              <a href="https://goo.gl/maps/Cmn2po4zETaWpE4z9">
-                <address>R. Domingos Luís Grou, 81 - Jardim Piracuama, São Paulo - SP, 05763-320</address>
-              </a>
+              <h4>Como doar:</h4>
+              <ol>
+                <li>Acessar a loja das Cestas Básicas:<br /><a href="https://lojacvscesta.com.br/" target="_blank" rel="noreferrer">https://lojacvscesta.com.br</a></li>
+                <li>Comprar e entregar no endereço:
+                <address>R. Domingos Luís Grou, 81 - Jardim Piracuama, São Paulo - SP, 05763-320</address></li>
+              </ol>
+              
             </li>
-            <li>
+            <li className="card">
               <h3>Irmandade Animal</h3>
               <a href="https://www.instagram.com/irmandadeanimal/" rel="noreferrer noopener" target="_blank">
                 <Image src="/irmandade-logo.jpeg" alt="Irmandade Animal" width={150} height={150} />
                 <p>@irmandadeanimal</p>
               </a>
-              <p>Pix: adaelsonlive@gmail.com</p>
+              <h4>Como doar:</h4>
+              <p>Chave Pix: adaelsonlive@gmail.com</p>
             </li>
 
           </ul>
