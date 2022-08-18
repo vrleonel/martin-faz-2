@@ -3,7 +3,16 @@ import Image from "next/image";
 export default function Footer({ children }) {
   return (
     <header>
-      <h1><Image src="/logo.png" width={280} height={179} alt="Segunda Volta ao Sol do Martin"/></h1>
+      <h1>
+        <Image
+          src="/logo.png"
+          width={280}
+          height={179}
+          alt="Segunda Volta ao Sol do Martin"
+          placeholder="blur"
+          blurDataURL="data:image/png;base64,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"
+        />
+      </h1>
     </header>
   )
 }

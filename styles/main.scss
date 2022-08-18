@@ -4,12 +4,12 @@ $copper: #be6932;
 $pine: #529b94;
 $laurel: #a5b6a4;
 $westar: #DFDED3;
-$martinFont: austieBostDreamboat, fantasy;
+// $martinFont: austieBostDreamboat, fantasy;
 
-@font-face {
-  font-family: austieBostDreamboat;
-  src: url(/austie-bost-dreamboat.ttf);
-}
+// @font-face {
+//   font-family: austieBostDreamboat;
+//   src: url("/austie-bost-dreamboat.ttf");
+// }
 
 body {
   background-color: $westar;
